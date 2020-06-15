@@ -2,7 +2,12 @@ const User = require('../models/User')
 
 module.exports = {
     async index (req, res) {
-        const user = await User.findAll()
+        const user = await User.findAll({
+            include: { 
+                association: 'techs', 
+                through: { attributes: [] } 
+            }
+        })
 
         return res.json(user)
     },
