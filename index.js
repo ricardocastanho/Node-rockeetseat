@@ -1,5 +1,6 @@
 const express = require('express')
-const routes = require('./src/routes')
+const routes = require('./routes/routes')
+require('./database')
 
 const app = express()
 
