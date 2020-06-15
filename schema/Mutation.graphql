@@ -1,0 +1,6 @@
+type Mutation {
+    
+    #novoUsuario(
+    #    dados: UsuarioInput!
+    #): Usuario!
+}

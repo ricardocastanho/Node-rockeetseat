@@ -9,7 +9,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "apollo-server": "^2.14.4",
+    "e": "0.0.4",
     "express": "^4.17.1",
+    "graphql": "^15.1.0",
+    "graphql-import": "^1.0.2",
+    "graphql-yoga": "^1.18.3",
     "mysql2": "^2.1.0",
     "pg": "^8.2.1",
     "pg-hstore": "^2.3.3",

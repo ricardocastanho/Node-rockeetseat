@@ -1,0 +1,10 @@
+# Pontos de entrada da sua API!
+type Users {
+    id: Int
+    name: String!
+    email: String!
+}
+
+type Query {
+    users: [Users]
+}
